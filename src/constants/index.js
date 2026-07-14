@@ -258,7 +258,7 @@ const designTools = [
 const experiences = [
   {
     title: "Research & Innovation Lead Technology officer ",
-    company_name: "NISS",
+    company_name: "Innovation & Technology Institute",
     icon: fullstack,
     iconBg: "#1a1a2e",
     date: "June 2023 – Present",
@@ -347,7 +347,7 @@ const awards = [
   },
   {
     title: "Well-Rounded Leader",
-    type: "Honours & Awards | NISS",
+    type: "Honours & Awards | INSA",
     icon: fullstack,
     iconBg: "#1a1a2e",
     date: "Nov 2023",
@@ -358,7 +358,7 @@ const awards = [
   },
   {
     title: "Certificate of Excellence",
-    type: "Honours & Awards | NISS",
+    type: "Honours & Awards | INSA",
     icon: fullstack,
     iconBg: "#0f3460",
     date: "Oct 2024",
