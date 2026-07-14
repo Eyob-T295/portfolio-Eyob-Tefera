@@ -1,35 +1,20 @@
 <div align="center">
 
-# Sunny Patel — 3D Portfolio
+# Eyob Tefera — 3D Portfolio
 
-<p align="center">
-	<a href="https://github.com/sunnypatell/react-threejs-portfolio/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/sunnypatell/react-threejs-portfolio?style=social"></a>
-	<a href="https://github.com/sunnypatell/react-threejs-portfolio/network/members"><img alt="Forks" src="https://img.shields.io/github/forks/sunnypatell/react-threejs-portfolio?style=social"></a>
-	<a href="#tech-stack"><img alt="Built with" src="https://img.shields.io/badge/Built%20with-Vite%20·%20React%20·%20Three.js-915EFF"></a>
-	<a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Custom-blue"></a>
-	<a href="https://www.sunnypatel.net"><img alt="Live" src="https://img.shields.io/badge/live-sunnypatel.net-00C853"></a>
-</p>
 
-<p align="center">
-	<a href="https://github.com/sunnypatell/react-threejs-portfolio/issues"><img alt="Issues" src="https://img.shields.io/github/issues/sunnypatell/react-threejs-portfolio?color=%23915EFF"></a>
-	<a href="https://github.com/sunnypatell/react-threejs-portfolio/pulls"><img alt="PRs" src="https://img.shields.io/github/issues-pr/sunnypatell/react-threejs-portfolio?color=%2300B8D9"></a>
-	<img alt="Last commit" src="https://img.shields.io/github/last-commit/sunnypatell/react-threejs-portfolio?color=%23A3E635">
-	<img alt="Top language" src="https://img.shields.io/github/languages/top/sunnypatell/react-threejs-portfolio?color=%23F59E0B">
-	<img alt="Repo size" src="https://img.shields.io/github/repo-size/sunnypatell/react-threejs-portfolio?color=%239999FF">
-	<a href="#contributing"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-ff69b4.svg"></a>
-</p>
 
 </div>
 
 <p align="center">
 	<picture>
-		<img src="src/assets/logo0.png" alt="Sunny Patel Portfolio" width="220" />
+		<img src="src/assets/logo0.png" alt="eyobt Portfolio" width="220" />
 	</picture>
 </p>
 
 An immersive, performant portfolio powered by React, react-three-fiber (Three.js), and Tailwind CSS — featuring a 3D hero scene, animated skills grid, project gallery with tilt effects, and a production-ready contact form (EmailJS + reCAPTCHA) with a real-time Earth canvas backdrop.
 
-<p align="center"><strong><a href="https://www.sunnypatel.net">Live Demo → sunnypatel.net</a></strong></p>
+<p align="center"><strong><a href="https://portfolio-eyob-tefera.vercel.app/">Live Demo → EyobT.net</a></strong></p>
 
 <details>
 	<summary><b>Table of Contents</b></summary>
@@ -56,7 +41,7 @@ An immersive, performant portfolio powered by React, react-three-fiber (Three.js
 </details>
 
 ## Overview
-
+![](SPLASHSCREEN.png)
 
 This project is a modern single-page application scaffolded with Vite and styled with Tailwind CSS, using react-three-fiber and drei to render high-fidelity 3D scenes. Animations are orchestrated with Framer Motion, and analytics are integrated via `@vercel/analytics`.
 
@@ -165,7 +150,7 @@ react-threejs-portfolio/
 ## Deployment
 
 GitHub Pages (current)
-- Custom domain via `CNAME` set to `sunnypatel.net`.
+- Custom domain via `CNAME` set to `eyobt.net`.
 - Build with `npm run build` and publish `dist/` to Pages (e.g., via Actions or manual).
 
 Vercel (optional)
@@ -211,7 +196,7 @@ Suggested commit style: conventional commits (e.g., `feat: add mobile camera pre
 ## Security
 
 - Do not commit secrets. Use `.env.local` for EmailJS and reCAPTCHA keys.
-- Report vulnerabilities privately via email: `sunnypatel124555@gmail.com`.
+- Report vulnerabilities privately via email: `eyobtefera295@gmail.com`.
 
 ## FAQ
 
@@ -227,11 +212,11 @@ Suggested commit style: conventional commits (e.g., `feat: add mobile camera pre
 <table>
 	<tr>
 		<td width="80">
-			<img src="src/assets/pfp.png" width="72" height="72" style="border-radius:50%" alt="Sunny Patel" />
+			<img src="src/assets/pfp.png" width="72" height="72" style="border-radius:50%" alt="Eyob Tefera" />
 		</td>
 		<td>
-			<b>Sunny Patel</b><br/>
-			<a href="https://www.sunnypatel.net">Website</a> • <a href="mailto:sunnypatel124555@gmail.com">Email</a> • <a href="https://www.linkedin.com/in/sunny-patel-30b460204/">LinkedIn</a>
+			<b>Eyob Tefera</b><br/>
+			<a href="https://portfolio-eyob-tefera.vercel.app/">Website</a> • <a href="mailto:eyobtefera295@gmail.com">Email</a> • <a href="https://www.linkedin.com/in/eyobtefera1/">LinkedIn</a>
 		</td>
 	</tr>
 	<tr>
@@ -248,7 +233,7 @@ This project is open source. See `LICENSE` for terms. Third-party 3D assets are 
 
 ## Contact
 
-- Portfolio: https://www.sunnypatel.net
-- Email: sunnypatel124555@gmail.com
-- LinkedIn: https://www.linkedin.com/in/sunny-patel-30b460204/
+- Portfolio: https://portfolio-eyob-tefera.vercel.app/
+- Email: eyobtefera295@gmail.com
+- LinkedIn: https://www.linkedin.com/in/eyobtefera1/
 
