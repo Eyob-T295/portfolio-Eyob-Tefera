@@ -586,7 +586,7 @@ const projects = [
     live_project_link: "https://github.com/TargetLocation",
   },
   {
-    name: "Project Management System (PMS)",
+    name: "Project Management System ",
     description:
       "Designed and enhanced a multi-role project and performance management system for institutional use. Implemented modules for plan tracking, task management, and data visualization for directors and staff.",
     tags: [
