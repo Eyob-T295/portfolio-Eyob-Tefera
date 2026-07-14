@@ -144,7 +144,7 @@ const Extracurricular = () => {
         </Swiper>
       </motion.div>
 
-      <style jsx global>{`
+      <style>{`
         .mySwiper {
           width: 100%;
           padding-top: 50px;

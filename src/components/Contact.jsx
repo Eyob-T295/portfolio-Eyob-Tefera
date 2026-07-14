@@ -7,7 +7,6 @@ import { Toaster, toast } from "react-hot-toast"
 import Confetti from "react-confetti"
 
 import { styles } from "../styles"
-import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
 
@@ -129,7 +128,7 @@ const Contact = () => {
   }, [])
 
   return (
-    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden no-select`}>
+    <div className="xl:mt-12 flex flex-col gap-10 overflow-hidden no-select items-center">
       <Toaster />
       {showConfetti && (
         <Confetti
@@ -142,7 +141,7 @@ const Contact = () => {
       )}
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-tertiary/80 backdrop-blur-xl p-8 rounded-2xl border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.4)]"
+        className="w-full max-w-3xl bg-tertiary/80 backdrop-blur-xl p-8 rounded-2xl border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.4)]"
       >
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 mb-4">
           <p className={styles.sectionSubText}>Get in touch</p>
@@ -258,10 +257,6 @@ const Contact = () => {
             )}
           </button>
         </form>
-      </motion.div>
-
-      <motion.div variants={slideIn("right", "tween", 0.2, 1)} className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
-        <EarthCanvas />
       </motion.div>
     </div>
   )

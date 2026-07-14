@@ -1,91 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './App.css'
 import { BrowserRouter } from 'react-router-dom'
 import { About, Contact, Education, Experience, Awards, Extracurricular, Hero, Navbar, Tech, Works, StarsCanvas } from './components' // if you want to use skills balls make sure to import tech and do the same for src\components\index.js
 import Feedbacks from './components/Feedbacks'
 // import { Analytics } from "@vercel/analytics/react"
-
-const OTUWebring = () => {
-  useEffect(() => {
-    let hostname = window.location.hostname
-    if (hostname.startsWith('www.')) {
-      hostname = hostname.substring(4)
-    }
-
-    const prevLink = document.getElementById('webring-prev')
-    const nextLink = document.getElementById('webring-next')
-
-    if (prevLink) {
-      prevLink.href = 'https://otu-ring.com/prev.html?from=' + encodeURIComponent(hostname)
-    }
-    if (nextLink) {
-      nextLink.href = 'https://otu-ring.com/next.html?from=' + encodeURIComponent(hostname)
-    }
-  }, [])
-
-  return (
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        gap: '16px',
-        padding: '0.5rem 0',
-        marginTop: '-3rem',
-        position: 'relative',
-        zIndex: 10,
-      }}
-    >
-      <a
-        id="webring-prev"
-        href="#"
-        title="Previous site"
-        style={{
-          color: '#71717a',
-          fontSize: '16px',
-          textDecoration: 'none',
-          padding: '0.5rem',
-          borderRadius: '4px',
-          transition: 'all 0.2s ease',
-          background: 'transparent',
-          cursor: 'pointer',
-        }}
-        onMouseEnter={(e) => { e.currentTarget.style.color = '#fafafa'; e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)' }}
-        onMouseLeave={(e) => { e.currentTarget.style.color = '#71717a'; e.currentTarget.style.backgroundColor = 'transparent' }}
-      >
-        &larr;
-      </a>
-      <a href="https://otu-ring.com" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center' }}>
-        <img
-          src="https://otu-ring.com/assets/ontariotech.svg"
-          alt="OTU Webring"
-          style={{ height: '20px', width: 'auto', opacity: 0.7, transition: 'opacity 0.2s ease' }}
-          onMouseEnter={(e) => { e.currentTarget.style.opacity = '1' }}
-          onMouseLeave={(e) => { e.currentTarget.style.opacity = '0.7' }}
-        />
-      </a>
-      <a
-        id="webring-next"
-        href="#"
-        title="Next site"
-        style={{
-          color: '#71717a',
-          fontSize: '16px',
-          textDecoration: 'none',
-          padding: '0.5rem',
-          borderRadius: '4px',
-          transition: 'all 0.2s ease',
-          background: 'transparent',
-          cursor: 'pointer',
-        }}
-        onMouseEnter={(e) => { e.currentTarget.style.color = '#fafafa'; e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)' }}
-        onMouseLeave={(e) => { e.currentTarget.style.color = '#71717a'; e.currentTarget.style.backgroundColor = 'transparent' }}
-      >
-        &rarr;
-      </a>
-    </div>
-  )
-}
 
 function App() {
   return (
@@ -106,7 +24,16 @@ function App() {
           <div className="div relative z-0">
             <Contact />
             <StarsCanvas />
-            <OTUWebring />
+            <footer className="mt-10 py-10 px-6 bg-tertiary/90 rounded-3xl border border-white/10 text-center text-secondary">
+              <p className="text-sm text-white/90">Thanks for visiting my portfolio. Want to connect?</p>
+              <div className="mt-4 flex flex-wrap justify-center gap-4 text-sm">
+                <a href="mailto:eyobtefera295@gmail.com" className="text-white hover:text-purple-300 transition-colors">Email</a>
+                <a href="https://www.linkedin.com/in/eyobtefera1/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-purple-300 transition-colors">LinkedIn</a>
+                <a href="https://github.com/Eyob-T295" target="_blank" rel="noopener noreferrer" className="text-white hover:text-purple-300 transition-colors">GitHub</a>
+                <a href="/resume/Eyob_Tefera_CV.pdf" target="_blank" rel="noopener noreferrer" className="text-white hover:text-purple-300 transition-colors">Resume</a>
+              </div>
+              <p className="text-xs text-gray-400 mt-4">© {new Date().getFullYear()} Eyob Tefera. Built with React.</p>
+            </footer>
           </div>
         </div>
       </BrowserRouter>
