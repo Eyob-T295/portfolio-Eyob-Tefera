@@ -56,7 +56,7 @@ An immersive, performant portfolio powered by React, react-three-fiber (Three.js
 </details>
 
 ## Overview
-![](SPLASHSCREEN.png)
+
 
 This project is a modern single-page application scaffolded with Vite and styled with Tailwind CSS, using react-three-fiber and drei to render high-fidelity 3D scenes. Animations are orchestrated with Framer Motion, and analytics are integrated via `@vercel/analytics`.
 

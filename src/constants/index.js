@@ -695,7 +695,7 @@ const projects = [
     live_project_link: "https://www.lalibelarestaurantuk.com/",
   },
   {
-    name: "Lalibela Restaurant Platform",
+    name: "Ibex",
     description:
       "A full-feature restaurant website with booking system, barcode checks, and an automated notification system.",
     tags: [
