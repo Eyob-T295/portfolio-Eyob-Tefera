@@ -695,7 +695,7 @@ const projects = [
     live_project_link: "https://www.lalibelarestaurantuk.com/",
   },
   {
-    name: "Ibex",
+    name: "Ibex Lounge",
     description:
       "A full-feature restaurant website with booking system, barcode checks, and an automated notification system.",
     tags: [
@@ -704,11 +704,11 @@ const projects = [
       { name: "MySQL", color: "pink-text-gradient" },
       { name: "Barcode-Scanner", color: "blue-text-gradient" },
     ],
-    image: "/projects/lalibelarestaurant.png",
+    image: "/projects/ibex.png",
     category: "web_systems",
     categoryEmoji: "🍲",
-    source_code_link: "https://www.lalibelarestaurantuk.com/",
-    live_project_link: "https://www.lalibelarestaurantuk.com/",
+    source_code_link: "https://ibexlounge.com/",
+    live_project_link: "https://ibexlounge.com/",
   },
   {
     name: "Feru bar & Restaurant",
