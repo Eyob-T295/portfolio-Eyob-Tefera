@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { Tilt } from "react-tilt";
 import { motion, useAnimation, useInView } from "framer-motion";
 
@@ -75,6 +75,7 @@ const ProjectCard = ({
 
 const Works = () => {
   const ref = useRef(null);
+  const [isMobile, setIsMobile] = useState(false);
   const isInView = useInView(ref, { once: true, margin: "0px 0px -200px 0px" }); // Adjust amount as needed
   const mainControls = useAnimation();
 
@@ -83,6 +84,13 @@ const Works = () => {
       mainControls.start("visible");
     }
   }, [isInView, mainControls]);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <section ref={ref}>
@@ -111,24 +119,18 @@ const Works = () => {
       </motion.div>
 
       <motion.div>
-        <div
-          className={`${
-            window.innerWidth <= 768
-              ? "grid grid-cols-1 gap-4 place-items-center"
-              : "flex flex-wrap gap-7"
-          }`}
-        >
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={`project-${index}`}
-              animate={
-                window.innerWidth <= 768
-                  ? {}
-                  : fadeIn("up", "spring", index * 0.5, 0.75)
-              }
-              {...project}
-            />
-          ))}
+        <div className={`${isMobile ? "grid grid-cols-1 gap-4 place-items-center" : "flex flex-wrap gap-7 justify-center"}`}>
+          {projects.length > 0 ? (
+            projects.map((project, index) => (
+              <ProjectCard
+                key={`project-${index}`}
+                animate={isMobile ? {} : fadeIn("up", "spring", index * 0.5, 0.75)}
+                {...project}
+              />
+            ))
+          ) : (
+            <p className="text-white text-center mt-10">No projects available right now.</p>
+          )}
         </div>
       </motion.div>
     </section>
