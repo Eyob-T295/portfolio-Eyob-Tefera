@@ -11,15 +11,11 @@ import {
   ubuntu,
   tailwind,
   postgresql,
-  // git,   // unused - not in any array
-  otu,
-  rhhs,
-  wonderland,
-  mackenziehealth,
-  privcurity,
-  staples,
-  google,
-  whmis,
+  //   git,   // unused - not in any array
+  admas,
+  mmcy,
+  nbcdc,
+  national,
   aws,
   python,
   cplusplus,
@@ -54,8 +50,6 @@ import {
   atsscreenerlanding,
   github,
   mongodb,
-  microsoft,
-  ibm,
 } from "../assets";
 
 export const navLinks = [
@@ -150,7 +144,7 @@ const technologies = [
     name: "C++",
     icon: cplusplus,
   },
-    {
+  {
     name: "PowerShell",
     icon: powershell,
   },
@@ -174,10 +168,10 @@ const technologies = [
   //   name: "HTML 5",
   //   icon: html,
   // },
-    {
+  {
     name: "Tailwind CSS",
     icon: tailwind,
-  }, 
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -263,7 +257,7 @@ const designTools = [
 
 const experiences = [
   {
-    title: "Technology Officer",
+    title: "Research & Innovation Lead Technology officer ",
     company_name: "NISS",
     icon: fullstack,
     iconBg: "#1a1a2e",
@@ -277,7 +271,7 @@ const experiences = [
   {
     title: "ICT Trainer & Technician",
     company_name: "Admas University",
-    icon: backend,
+    icon: admas,
     iconBg: "#0f3460",
     date: "Feb 2022 – Present",
     points: [
@@ -288,9 +282,21 @@ const experiences = [
     ],
   },
   {
+    title: "IT Department Advisor & ICT Trainer",
+    company_name: "National Aviation College",
+    icon: national,
+    iconBg: "#1a1a2e",
+    date: "Jan 2021 – Present",
+    points: [
+      "Serve as an IT Department Advisor, providing strategic technical guidance and infrastructure advice.",
+      "Deliver comprehensive ICT training and lectures, enhancing student technical competencies.",
+      "Support department-level hardware, software, and administrative systems."
+    ],
+  },
+  {
     title: "IT Support Specialist",
     company_name: "MMCYTECH",
-    icon: mobile,
+    icon: mmcy,
     iconBg: "#16213e",
     date: "Jan 2023 – Apr 2024",
     points: [
@@ -315,7 +321,7 @@ const experiences = [
   {
     title: "ICT Trainer (Intern)",
     company_name: "New Bright Community",
-    icon: google,
+    icon: nbcdc,
     iconBg: "#0d0d0d",
     date: "Jan 2022 – Apr 2022",
     points: [
@@ -331,7 +337,7 @@ const awards = [
   {
     title: "Best ICT Instructor",
     type: "Honours & Awards | Admas University",
-    icon: otu,
+    icon: admas,
     iconBg: "#333333",
     date: "Jul 2023",
     points: [
@@ -376,7 +382,7 @@ const extracurricular = [
   {
     title: "Programming in C#",
     type: "Certifications & Training | New Horizon",
-    icon: microsoft,
+    icon: backend,
     iconBg: "#000000",
     date: "Feb 7, 2016",
     points: [
@@ -406,7 +412,7 @@ const extracurricular = [
   {
     title: "Technical Support",
     type: "Professional Certificate | Coursera",
-    icon: google,
+    icon: mobile,
     iconBg: "#050C18",
     date: "Mar 2021",
     points: [
@@ -459,7 +465,7 @@ const projects = [
       { name: "Leaflet.js", color: "blue-text-gradient" },
       { name: "PostgreSQL", color: "green-text-gradient" },
     ],
-    image: "",
+    image: "src/assets/anti-drone.jpg",
     category: "ai_r&d",
     categoryEmoji: "🤖",
     source_code_link: "https://github.com/Eyob-T295",
@@ -475,7 +481,7 @@ const projects = [
       { name: "Bootstrap", color: "pink-text-gradient" },
       { name: "Chart.js", color: "blue-text-gradient" },
     ],
-    image: "",
+    image: "src/assets/signal.jpg",
     category: "ai_r&d",
     categoryEmoji: "📊",
     source_code_link: "https://github.com/Eyob-T295",
@@ -540,7 +546,7 @@ const projects = [
       { name: "PyQt5", color: "green-text-gradient" },
       { name: "CSV", color: "pink-text-gradient" },
     ],
-    image: "",
+    image: "src/assets/yoyo.jpg",
     category: "web_systems",
     categoryEmoji: "🚗",
     source_code_link: "https://github.com/Eyob-T295",
@@ -573,7 +579,7 @@ const projects = [
       { name: "TailwindCSS", color: "pink-text-gradient" },
       { name: "Vite", color: "blue-text-gradient" },
     ],
-    image: "",
+    image: "src/assets/portfolio.png",
     category: "web_systems",
     categoryEmoji: "💼",
     source_code_link: "https://github.com/Eyob-T295",
@@ -629,17 +635,32 @@ const projects = [
   {
     name: "Psy Addis (Event Website)",
     description:
-      "An event platform for Greek and electronic music festivals in Addis Ababa, featuring event listings, galleries, and admin management.",
+      "An event platform for Greek and electronic music festivals in Addis Ababa, featuring payment integration ,event listings, galleries, and admin management.",
     tags: [
       { name: "React", color: "blue-text-gradient" },
       { name: "Laravel", color: "green-text-gradient" },
       { name: "PostgreSQL", color: "pink-text-gradient" },
     ],
-    image: "",
+    image: "src/assets/psyaddis.png",
     category: "web_systems",
     categoryEmoji: "🎵",
-    source_code_link: "https://github.com/Eyob-T295",
-    live_project_link: "",
+    source_code_link: "https://psyaddis.com/",
+    live_project_link: "https://psyaddis.com/",
+  },
+  {
+    name: "Holiday hotel",
+    description:
+      "Luxury hotel booking system in Addis Ababa, featuring services listings, galleries, and admin management.",
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Laravel", color: "green-text-gradient" },
+      { name: "PostgreSQL", color: "pink-text-gradient" },
+    ],
+    image: "src/assets/holidayhotel.png",
+    category: "web_systems",
+    categoryEmoji: "🎵",
+    source_code_link: "https://holiday-hotel-sepia.vercel.app/",
+    live_project_link: "https://holiday-hotel-sepia.vercel.app/",
   },
   {
     name: "Summit Connect",
@@ -651,11 +672,11 @@ const projects = [
       { name: "MySQL", color: "pink-text-gradient" },
       { name: "JavaScript", color: "blue-text-gradient" },
     ],
-    image: "",
+    image: "src/assets/summitconnect.png",
     category: "web_systems",
     categoryEmoji: "📞",
-    source_code_link: "https://github.com/Eyob-T295",
-    live_project_link: "",
+    source_code_link: "https://summitconnectbpo.com/",
+    live_project_link: "https://summitconnectbpo.com/",
   },
   {
     name: "Lalibela Restaurant Platform",
@@ -667,11 +688,43 @@ const projects = [
       { name: "MySQL", color: "pink-text-gradient" },
       { name: "Barcode-Scanner", color: "blue-text-gradient" },
     ],
-    image: "",
+    image: "src/assets/lalibelarestaurant.png",
     category: "web_systems",
     categoryEmoji: "🍲",
-    source_code_link: "https://github.com/Eyob-T295/Lalibela-Restaurant",
-    live_project_link: "",
+    source_code_link: "https://www.lalibelarestaurantuk.com/",
+    live_project_link: "https://www.lalibelarestaurantuk.com/",
+  },
+  {
+    name: "Lalibela Restaurant Platform",
+    description:
+      "A full-feature restaurant website with booking system, barcode checks, and an automated notification system.",
+    tags: [
+      { name: "React.js", color: "blue-text-gradient" },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "MySQL", color: "pink-text-gradient" },
+      { name: "Barcode-Scanner", color: "blue-text-gradient" },
+    ],
+    image: "src/assets/lalibelarestaurant.png",
+    category: "web_systems",
+    categoryEmoji: "🍲",
+    source_code_link: "https://www.lalibelarestaurantuk.com/",
+    live_project_link: "https://www.lalibelarestaurantuk.com/",
+  },
+  {
+    name: "Feru bar & Restaurant",
+    description:
+      "A full-feature restaurant website with booking system, barcode checks, and an automated notification system.",
+    tags: [
+      { name: "React.js", color: "blue-text-gradient" },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "MySQL", color: "pink-text-gradient" },
+      { name: "Barcode-Scanner", color: "blue-text-gradient" },
+    ],
+    image: "src/assets/ferubar.png",
+    category: "web_systems",
+    categoryEmoji: "🍲",
+    source_code_link: "https://feru-bar-and-restauarant.vercel.app/",
+    live_project_link: "https://feru-bar-and-restauarant.vercel.app/",
   },
   {
     name: "Linux PMS System Deployment",
@@ -703,11 +756,11 @@ const projects = [
       { name: "MySQL", color: "pink-text-gradient" },
       { name: "REST-API", color: "blue-text-gradient" },
     ],
-    image: "",
+    image: "src/assets/bluenile.png",
     category: "mobile_client",
     categoryEmoji: "📱",
-    source_code_link: "https://github.com/Eyob-T295",
-    live_project_link: "",
+    source_code_link: "https://apps.apple.com/us/app/blue-nile-injera/id6759717294",
+    live_project_link: "https://apps.apple.com/us/app/blue-nile-injera/id6759717294",
   },
   {
     name: "Asthma Health Tracker",

@@ -47,17 +47,11 @@ import cinema4d from "./tech/cinema4d.png"
 // import blender from "./tech/blender.svg"  // unused - not in Tech.jsx
 
 
-import otu from "./company/otu.png"
-import rhhs from "./company/rhhs.jpg"
-import wonderland from "./company/wonderland.jpg"
-import mackenziehealth from "./company/mackenziehealth.png"
-import privcurity from "./company/privcurity.jpg"
-import staples from "./company/staples.png"
-import google from "./company/google.png"
-import whmis from "./company/whmis.png"
+import admas from "./company/admas.jpg";
+import mmcy from "./company/mmcy.jpg";
+import nbcdc from "./company/NBCDC.jpg";
+import national from "./company/national.png";
 import aws from "./tech/aws.png";
-import microsoft from "./company/microsoft.png";
-import ibm from "./company/ibm.svg";
 
 import axelotlanding from "./axelotlanding.png"
 import netdashlanding from "./netdashlanding.png"
@@ -96,13 +90,10 @@ export {
   postgresql,
   mongodb,
   aws,
-  otu,
-  rhhs,
-  wonderland,
-  mackenziehealth,
-  privcurity,
-  google,
-  whmis,
+  admas,
+  mmcy,
+  nbcdc,
+  national,
   axelotlanding,
   netdashlanding,
   securebankdashboard,
@@ -141,7 +132,5 @@ export {
   // mysql,
   threejs,
   azure,
-  staples,
-  microsoft,
-  ibm
+
 };
