@@ -392,25 +392,17 @@ const extracurricular = [
     ],
   },
   {
-    title: "Hardware and Network Servicing Level (1-4)",
+    title: "Hardware and Network Servicing",
     type: "Certifications & Training | TVET Agency",
-    icon: cisco,
+    icon: backend,
     iconBg: "#005A70",
     date: "Jul 14, 2022",
     points: [
       "Network design, hardware configuration, hardware troubleshooting, and servicing protocols."
     ],
   },
-  {
-    title: "COC Certified Level 4 in Hardware and Network Servicing",
-    type: "Certifications & Training | Federal TVET Agency",
-    icon: cisco,
-    iconBg: "#005A70",
-    date: "Mar 2022",
-    points: [
-      "National Certificate of Competency (COC) in Hardware and Network Servicing."
-    ],
-  },
+
+
   {
     title: "Technical Support",
     type: "Professional Certificate | Coursera",
@@ -784,7 +776,7 @@ const projects = [
 const testimonials = [
   {
     testimonial:
-      "Eyob is one of the most dedicated ICT instructors we have had at Admas University. His ability to explain complex technical concepts in simple terms, combined with his hands-on approach to teaching, made a real difference to our students. He was awarded Best ICT Instructor for a reason — his passion and commitment to student success is unmatched.",
+      "Eyob is a dedicated ICT instructor. His ability to explain complex technical concepts in simple terms, combined with his hands-on teaching, made a real difference to our students.",
     name: "Academic Department Head",
     designation: "Department Head",
     company: "Admas University",
@@ -792,7 +784,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Eyob's contributions to our R&D department have been outstanding. He led multiple technology research initiatives and was instrumental in deploying critical infrastructure systems. His technical depth — from system architecture to cybersecurity — and his leadership made him earn the Well-Rounded Leader recognition at INSA.",
+      "Eyob's contributions to our R&D department have been outstanding. He successfully led multiple research initiatives and was instrumental in deploying critical infrastructure systems.",
     name: "Senior Director, R&D",
     designation: "Director",
     company: "Innovation & Technology Institute",
@@ -800,7 +792,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Working with Eyob at MMCYTECH was a great experience. He has strong technical instincts when it comes to IT support, troubleshooting, and systems management. His ability to resolve complex hardware and software issues quickly while maintaining a professional attitude with clients made him a valued member of our team.",
+      "Working with Eyob was a great experience. He has strong technical instincts in IT support and systems management, resolving complex issues quickly and professionally.",
     name: "Operations Manager",
     designation: "Operations Manager",
     company: "MMCYTECH",
