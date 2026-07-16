@@ -16,6 +16,8 @@ import {
   mmcy,
   nbcdc,
   national,
+  insa,
+  bridgemarketing,
   aws,
   python,
   cplusplus,
@@ -259,8 +261,8 @@ const experiences = [
   {
     title: "Research & Innovation Lead Technology officer ",
     company_name: "Innovation & Technology Institute",
-    icon: fullstack,
-    iconBg: "#1a1a2e",
+    icon: insa,
+    iconBg: "#13103a",
     date: "June 2023 – Present",
     points: [
       "Lead research and development initiatives in emerging technologies & system development.",
@@ -309,8 +311,8 @@ const experiences = [
   {
     title: "IT Expert",
     company_name: "Bridge Marketing",
-    icon: web,
-    iconBg: "#1b1b2f",
+    icon: bridgemarketing,
+    iconBg: "#0e2a2a",
     date: "Apr 2019 – Aug 2022",
     points: [
       "Played a key role in maintaining and troubleshooting the company's IT infrastructure.",
@@ -782,27 +784,27 @@ const projects = [
 const testimonials = [
   {
     testimonial:
-      "I highly recommend Sunny for his outstanding technical proficiency and professional approach as a System Support specialist at Mackenzie Hospital. His deep knowledge of iPad systems and troubleshooting abilities were instrumental in ensuring seamless operations and user satisfaction. Sunny's proactive attitude and problem-solving skills made him a reliable asset to our team, and he consistently exceeded expectations in resolving complex issues. I have no hesitation in endorsing him for any tech-related position, as I am confident he will excel in any challenge he takes on.",
-    name: "Feda Abukhadrah, BIT | SaaS | Health Tech | MDM | ABM | POS | ITIL®V4 | CompTIA A+",
-    designation: "Senior Service Desk Specialist",
-    company: "Px Solutions LTD.",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Eyob is one of the most dedicated ICT instructors we have had at Admas University. His ability to explain complex technical concepts in simple terms, combined with his hands-on approach to teaching, made a real difference to our students. He was awarded Best ICT Instructor for a reason — his passion and commitment to student success is unmatched.",
+    name: "Academic Department Head",
+    designation: "Department Head",
+    company: "Admas University",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     testimonial:
-      "Sunny Patel's expertise in the technological domain is truly remarkable. Proficient in programming languages like Java, Python, and C++, and highly skilled in Microsoft's suite of tools, Sunny's grasp of networking concepts is extensive. What sets him apart is his experience in handling over 1000 devices remotely and on-site, along with a successful track record in troubleshooting and deploying various software and hardware upgrades. His dedication to tackling complex challenges, grounded in a strong foundation in software design and a rich academic background in computer science, positions Sunny as a valuable asset to any tech-driven team.",
-    name: "Sanjay Sharma, MBA, CISSP, CISA, PMP®",
-    designation: "Senior Vice-President and Head of Cybersecurity Services",
-    company: "Pathway Communications / ex-Toronto Hydro",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Eyob's contributions to our R&D department have been outstanding. He led multiple technology research initiatives and was instrumental in deploying critical infrastructure systems. His technical depth — from system architecture to cybersecurity — and his leadership made him earn the Well-Rounded Leader recognition at INSA.",
+    name: "Senior Director, R&D",
+    designation: "Director",
+    company: "Innovation & Technology Institute",
+    image: "https://randomuser.me/api/portraits/men/45.jpg",
   },
   {
     testimonial:
-      "Sunny's proficiency in data entry was impeccable, displaying meticulous attention to detail and accuracy. His commitment to maintaining organized and error-free records significantly improved our operational efficiency. In customer service, Sunny's phone etiquette was truly commendable. He communicated with a warm and professional demeanour, leaving customers with a positive impression and ensuring their needs were met. His ability to multitask and handle multiple customers simultaneously was impressive, showcasing his excellent time management and interpersonal skills. Sunny's dedication to his role and adeptness in data entry, customer service, and managing simultaneous customer interactions made him a valuable asset to our team at Lazer Runner.",
-    name: "Michelle Ilizirov",
-    designation: "Manager",
-    company: "Lazer Runner",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Working with Eyob at MMCYTECH was a great experience. He has strong technical instincts when it comes to IT support, troubleshooting, and systems management. His ability to resolve complex hardware and software issues quickly while maintaining a professional attitude with clients made him a valued member of our team.",
+    name: "Operations Manager",
+    designation: "Operations Manager",
+    company: "MMCYTECH",
+    image: "https://randomuser.me/api/portraits/women/28.jpg",
   },
 ];
 

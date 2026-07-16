@@ -51,6 +51,8 @@ import admas from "./company/admas.jpg";
 import mmcy from "./company/mmcy.jpg";
 import nbcdc from "./company/NBCDC.jpg";
 import national from "./company/national.png";
+import insa from "./company/insa.png";
+import bridgemarketing from "./company/bridgemarketing.png";
 import aws from "./tech/aws.png";
 
 import axelotlanding from "./axelotlanding.png"
@@ -94,6 +96,8 @@ export {
   mmcy,
   nbcdc,
   national,
+  insa,
+  bridgemarketing,
   axelotlanding,
   netdashlanding,
   securebankdashboard,
