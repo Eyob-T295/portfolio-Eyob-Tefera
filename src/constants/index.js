@@ -662,54 +662,54 @@ const projects = [
     source_code_link: "https://holiday-hotel-sepia.vercel.app/",
     live_project_link: "https://holiday-hotel-sepia.vercel.app/",
   },
-  // {
-  //   name: "Summit Connect",
-  //   description:
-  //     "A dynamic web platform for managing bookings and call schedules for an outsourcing company, including admin dashboards and client interaction tools.",
-  //   tags: [
-  //     { name: "PHP-Simcify", color: "blue-text-gradient" },
-  //     { name: "Laravel", color: "green-text-gradient" },
-  //     { name: "MySQL", color: "pink-text-gradient" },
-  //     { name: "JavaScript", color: "blue-text-gradient" },
-  //   ],
-  //   image: "/projects/summitconnect.png",
-  //   category: "web_systems",
-  //   categoryEmoji: "📞",
-  //   source_code_link: "https://summitconnectbpo.com/",
-  //   live_project_link: "https://summitconnectbpo.com/",
-  // },
-  // {
-  //   name: "Lalibela Restaurant Platform",
-  //   description:
-  //     "A full-feature restaurant website with booking system, barcode checks, and an automated notification system.",
-  //   tags: [
-  //     { name: "React.js", color: "blue-text-gradient" },
-  //     { name: "Node.js", color: "green-text-gradient" },
-  //     { name: "MySQL", color: "pink-text-gradient" },
-  //     { name: "Barcode-Scanner", color: "blue-text-gradient" },
-  //   ],
-  //   image: "/projects/lalibelarestaurant.png",
-  //   category: "web_systems",
-  //   categoryEmoji: "🍲",
-  //   source_code_link: "https://www.lalibelarestaurantuk.com/",
-  //   live_project_link: "https://www.lalibelarestaurantuk.com/",
-  // },
-  // {
-  //   name: "Ibex Lounge",
-  //   description:
-  //     "A full-feature restaurant website with booking system, barcode checks, and an automated notification system.",
-  //   tags: [
-  //     { name: "React.js", color: "blue-text-gradient" },
-  //     { name: "Node.js", color: "green-text-gradient" },
-  //     { name: "MySQL", color: "pink-text-gradient" },
-  //     { name: "Barcode-Scanner", color: "blue-text-gradient" },
-  //   ],
-  //   image: "/projects/ibex.png",
-  //   category: "web_systems",
-  //   categoryEmoji: "🍲",
-  //   source_code_link: "https://ibexlounge.com/",
-  //   live_project_link: "https://ibexlounge.com/",
-  // },
+  {
+    name: "Summit Connect",
+    description:
+      "A dynamic web platform for managing bookings and call schedules for an outsourcing company, including admin dashboards and client interaction tools.",
+    tags: [
+      { name: "PHP-Simcify", color: "blue-text-gradient" },
+      { name: "Laravel", color: "green-text-gradient" },
+      { name: "MySQL", color: "pink-text-gradient" },
+      { name: "JavaScript", color: "blue-text-gradient" },
+    ],
+    image: "/projects/summitconnect.png",
+    category: "web_systems",
+    categoryEmoji: "📞",
+    source_code_link: "https://summitconnectbpo.com/",
+    live_project_link: "https://summitconnectbpo.com/",
+  },
+  {
+    name: "Lalibela Restaurant Platform",
+    description:
+      "A full-feature restaurant website with booking system, barcode checks, and an automated notification system.",
+    tags: [
+      { name: "React.js", color: "blue-text-gradient" },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "MySQL", color: "pink-text-gradient" },
+      { name: "Barcode-Scanner", color: "blue-text-gradient" },
+    ],
+    image: "/projects/lalibelarestaurant.png",
+    category: "web_systems",
+    categoryEmoji: "🍲",
+    source_code_link: "https://www.lalibelarestaurantuk.com/",
+    live_project_link: "https://www.lalibelarestaurantuk.com/",
+  },
+  {
+    name: "Ibex Lounge",
+    description:
+      "A full-feature restaurant website with booking system, barcode checks, and an automated notification system.",
+    tags: [
+      { name: "React.js", color: "blue-text-gradient" },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "MySQL", color: "pink-text-gradient" },
+      { name: "Barcode-Scanner", color: "blue-text-gradient" },
+    ],
+    image: "/projects/ibex.png",
+    category: "web_systems",
+    categoryEmoji: "🍲",
+    source_code_link: "https://ibexlounge.com/",
+    live_project_link: "https://ibexlounge.com/",
+  },
   {
     name: "Feru bar & Restaurant",
     description:
